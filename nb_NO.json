@@ -1,440 +1,420 @@
 {
   "DASHBOARD": {
-    "LABEL": "Dashboard",
+    "LABEL": "Hjem",
     "RECENT_ACTIVITES": {
-      "LABEL": "Recent Activities",
-      "INCIDENT": "Recent Incidents",
-      "REPORT": "Recent Reports",
-      "BOLO": "Recent Bolos",
-      "WARRANT": "Recent Warrants",
-      "EVIDENCE": "Recent Evidence",
-      "WEAPON": "Recent Registered Weapons"
+      "LABEL": "Nylige aktiviteter",
+      "INCIDENT": "Nylige hendelser",
+      "REPORT": "Nylige rapporter",
+      "BOLO": "Nylige BOLOs",
+      "WARRANT": "Nylige arrestordrer",
+      "EVIDENCE": "Nylige bevis",
+      "WEAPON": "Nylige registrerte våpen"
     },
     "ANNOUNCEMENTS": {
-      "LABEL": "Announcements"
+      "LABEL": "Kunngjøringer"
     }
   },
-
   "CITIZENS": {
-    "LABEL": "Citizens",
-    "EDIT": "Edit citizen {identifier}",
-    "GRANT": "Grant Licence",
-    "REVOKE": "Revoke Licence"
+    "LABEL": "Borgere",
+    "EDIT": "Rediger borger {identifier}",
+    "GRANT": "Gi lisens",
+    "REVOKE": "Tilbakekall lisens"
   },
-
   "INCIDENTS": {
-    "LABEL": "Incidents",
-    "EDIT": "Edit incident {id}",
+    "LABEL": "Hendelser",
+    "EDIT": "Rediger hendelse {id}",
     "CRIMINAL": {
-      "LABEL": "Criminal Scumbags",
+      "LABEL": "Kriminelle skurker",
       "CRIMINALS": {
         "LABEL": "(#{identifier}) {fullname}",
-        "EDIT": "Edit ",
-        "WARRANT": "Warrant for arrest",
-        "HOLD": "Hold until trial",
-        "TRIAL": "Been to trial",
-        "REASON": "Reason for warrant",
-        "DATE": "Select Date and Time",
+        "EDIT": "Rediger",
+        "WARRANT": "Arrestordre",
+        "HOLD": "Hold inntil rettssak",
+        "TRIAL": "Har vært til rettssak",
+        "REASON": "Grunn for arrestordre",
+        "DATE": "Velg dato og tid",
         "REDUCTION": {
-          "LABEL": "Reduction",
-          "PLACEHOLDER": "Select reduction",
-          "DATA": "{percentage}% / ${fine} fine / {jail} months(s) / {points} point(s)"
+          "LABEL": "Reduksjon",
+          "PLACEHOLDER": "Velg reduksjon",
+          "DATA": "{percentage}% / kr {fine} bot / {jail} måned(er) / {points} poeng"
         },
-        "PLEADED": "Pleaded Guilty",
-        "PROCESSED": "Processed",
+        "PLEADED": "Erklært skyldig",
+        "PROCESSED": "Behandlet",
         "CHARGES": {
-          "SELECTED": "Selected ",
-          "ALL_CHARGES": "All charges",
-          "NONE_FOUND": "No  Found"
+          "SELECTED": "Valgte",
+          "ALL_CHARGES": "Alle anklager",
+          "NONE_FOUND": "Ingen funnet"
         }
       }
     }
   },
-
   "REPORTS": {
-    "LABEL": "Reports",
-    "EDIT": "Edit report {id}"
+    "LABEL": "Rapporter",
+    "EDIT": "Rediger rapport {id}"
   },
-
   "BOLOS_WARRANTS": {
-    "LABEL": "Bolos & Warrants",
+    "LABEL": "BOLOs & Arrestordrer",
     "BOLOS": {
-      "LABEL": "Bolos"
+      "LABEL": "BOLOs"
     },
     "WARRANTS": {
-      "LABEL": "Warrants",
+      "LABEL": "Arrestordrer",
       "CLOTHES": {
-        "HAT": "Hat: {type} | {color}",
-        "MASK": "Mask: {type} | {color}",
-        "JACKET": "Jacket: {type} | {color}",
-        "GLOVES": "Gloves: {type} | {color}",
-        "PANTS": "Pants: {type} | {color}",
-        "SHOES": "Shoes: {type} | {color}"
+        "HAT": "Hatt: {type} | {color}",
+        "MASK": "Maske: {type} | {color}",
+        "JACKET": "Jakke: {type} | {color}",
+        "GLOVES": "Hansker: {type} | {color}",
+        "PANTS": "Bukser: {type} | {color}",
+        "SHOES": "Sko: {type} | {color}"
       }
     }
   },
-
   "VEHICLES": {
-    "LABEL": "Vehicles",
-    "EDIT": "Edit vehicle {plate}"
+    "LABEL": "Kjøretøy",
+    "EDIT": "Rediger kjøretøy {plate}"
   },
-
   "EVIDENCE": {
-    "LABEL": "Evidence",
-    "EDIT": "Edit evidence {id}",
-    "CATEGORY": "Category: {category}"
+    "LABEL": "Bevis",
+    "EDIT": "Rediger bevis {id}",
+    "CATEGORY": "Kategori: {category}"
   },
-
   "CAMERAS": {
-    "LABEL": "Cameras",
+    "LABEL": "Kameraer",
     "AV1": "AV1",
-    "NO_INPUT": "No input signal.",
+    "NO_INPUT": "Ingen inngangssignal.",
     "ONLINE": "Online"
   },
-
   "WEAPON_REGISTRY": {
-    "LABEL": "Weapon Registry",
-    "EDIT": "Edit weapon {id}"
+    "LABEL": "Våpenregister",
+    "EDIT": "Rediger våpen {id}"
   },
-
   "LEGISLATIONS": {
-    "LABEL": "Legislations",
-    "EDIT": "Edit legislation {id}"
+    "LABEL": "Lovgivning",
+    "EDIT": "Rediger lovgivning {id}"
   },
-
   "STAFF": {
-    "LABEL": "Staff",
-
+    "LABEL": "Personale",
     "STAFF": {
-      "LABEL": "Staff"
+      "LABEL": "Personale"
     },
-
     "SOP": {
       "LABEL": "SOP",
-      "EDIT": "Edit SOP {id}"
+      "EDIT": "Rediger SOP {id}"
     },
-
     "ROSTER": {
       "LABEL": "Roster"
     },
-
     "ACADEMY": {
-      "LABEL": "Academy Sheet",
-      "ADD": "Add new officer"
+      "LABEL": "Opplæringsark",
+      "ADD": "Legg til ny offiser"
     },
-
     "DATABASE": {
-      "LABEL": "Disciplinary Database",
-      "ADD": "Add new officer"
+      "LABEL": "Disiplinærdatabase",
+      "ADD": "Legg til ny offiser"
     },
-
     "CODES_COMMANDS": {
-      "LABEL": "10 Codes & Commands",
+      "LABEL": "10 Koder & Kommandoer",
       "CODES": {
-        "LABEL": "10 Codes",
-        "CODE": "Code",
-        "DESCRIPTION": "Description"
+        "LABEL": "10 Koder",
+        "CODE": "Kode",
+        "DESCRIPTION": "Beskrivelse"
       },
       "COMMANDS": {
-        "LABEL": "Commands",
-        "COMMAND": "Command",
-        "ACTION": "Action"
+        "LABEL": "Kommandoer",
+        "COMMAND": "Kommando",
+        "ACTION": "Handling"
       }
     }
   },
-
   "CHARGE": {
-    "LABEL": "Charges"
+    "LABEL": "Anklager"
   },
-
   "CONFIGURATIONS": {
-    "LABEL": "Configurations",
-
+    "LABEL": "Konfigurasjoner",
     "STAFF": {
-      "LABEL": "Staff",
-      "EDIT": "Edit staff {identifier}",
+      "LABEL": "Personale",
+      "EDIT": "Rediger personale {identifier}",
       "DATA": "Data",
-      "NO_ACTIVITY": "No activity yet",
-      "CLOCKED_IN": "Clocked in",
-      "CLOCKED_OUT": "Clocked out",
-      "SUSPEND": "Suspend",
-      "FIRE": "Fire"
+      "NO_ACTIVITY": "Ingen aktivitet ennå",
+      "CLOCKED_IN": "Registrert inn",
+      "CLOCKED_OUT": "Registrert ut",
+      "SUSPEND": "Suspender",
+      "FIRE": "Avskjedig"
     },
-
     "ROLES": {
-      "LABEL": "Roles",
-      "NEW": "New role",
-      "DESCRIPTION": "Select specific roles that the officer should have permission to",
+      "LABEL": "Roller",
+      "NEW": "Ny rolle",
+      "DESCRIPTION": "Velg spesifikke roller som offiseren skal ha tillatelse til",
       "LABELS": {
-        "FULL_ACCESS": "Full Access",
+        "FULL_ACCESS": "Full tilgang",
         "CONFIGURATIONS": {
-          "VIEW": "Access Configurations",
-          "STAFF": "Control Staff Data",
-          "STAFF_ROLES": "Edit Staff Roles",
-          "ROLES": "Control Roles Data",
-          "": "Control  Data"
+          "VIEW": "Tilgang til konfigurasjoner",
+          "STAFF": "Kontrollere personaledata",
+          "STAFF_ROLES": "Redigere personaleroller",
+          "ROLES": "Kontrollere rolledata",
+          "": "Kontrollere data"
         },
         "DASHBOARD": {
-          "VIEW": "Access Dashboard Page",
+          "VIEW": "Tilgang til dashbordsside",
           "ANNOUNCEMENTS": {
-            "CREATE": "Create Announcements",
-            "EDIT": "Edit Announcements",
-            "DELETE": "Delete Announcements"
+            "CREATE": "Opprette kunngjøringer",
+            "EDIT": "Redigere kunngjøringer",
+            "DELETE": "Slette kunngjøringer"
           }
         },
         "CITIZENS": {
-          "VIEW": "Access Citizens Page",
-          "SEARCH": "Search Citizens Data",
-          "EDIT": "Edit Citizens Data"
+          "VIEW": "Tilgang til borgeres side",
+          "SEARCH": "Søke borgeres data",
+          "EDIT": "Redigere borgeres data"
         },
         "INCIDENTS": {
-          "VIEW": "Access Incidents Page",
-          "SEARCH": "Search Incidents Data",
-          "CREATE": "Create Incidents Data",
-          "EDIT": "Edit Incidents Data",
-          "DELETE": "Delete Incidents Data"
+          "VIEW": "Tilgang til hendelsesside",
+          "SEARCH": "Søke hendelsesdata",
+          "CREATE": "Opprette hendelsesdata",
+          "EDIT": "Redigere hendelsesdata",
+          "DELETE": "Slette hendelsesdata"
         },
         "REPORTS": {
-          "VIEW": "Access Reports Page",
-          "SEARCH": "Search Reports Data",
-          "CREATE": "Create Reports Data",
-          "EDIT": "Edit Reports Data",
-          "DELETE": "Delete Reports Data"
+          "VIEW": "Tilgang til rapportside",
+          "SEARCH": "Søke rapportdata",
+          "CREATE": "Opprette rapportdata",
+          "EDIT": "Redigere rapportdata",
+          "DELETE": "Slette rapportdata"
         },
         "BOLOS_WARRANTS": {
-          "VIEW": "Access Bolos & Warrants Page",
-          "CREATE": "Create Bolos & Warrants Data",
-          "EDIT": "Edit Bolos & Warrants Data",
-          "DELETE": "Delete Bolos & Warrants Data"
+          "VIEW": "Tilgang til BOLOs & arrestordrer-siden",
+          "CREATE": "Opprette BOLOs & arrestordrer-data",
+          "EDIT": "Redigere BOLOs & arrestordrer-data",
+          "DELETE": "Slette BOLOs & arrestordrer-data"
         },
         "VEHICLES": {
-          "VIEW": "Access Vehicles Page",
-          "SEARCH": "Search Vehicles Data",
-          "EDIT": "Edit Vehicles Data"
+          "VIEW": "Tilgang til kjøretøysside",
+          "SEARCH": "Søke kjøretøydata",
+          "EDIT": "Redigere kjøretøydata"
         },
         "EVIDENCE": {
-          "VIEW": "Access Evidence Page",
-          "SEARCH": "Search Evidence Data",
-          "CREATE": "Create Evidence Data",
-          "EDIT": "Edit Evidence Data",
-          "DELETE": "Delete Evidence Data"
+          "VIEW": "Tilgang til bevisside",
+          "SEARCH": "Søke bevisdata",
+          "CREATE": "Opprette bevissdata",
+          "EDIT": "Redigere bevissdata",
+          "DELETE": "Slette bevissdata"
         },
         "CAMERAS": {
-          "VIEW": "Access Cameras Page"
+          "VIEW": "Tilgang til kameraside"
         },
         "WEAPON_REGISTRY": {
-          "VIEW": "Access Weapons Registry Page",
-          "SEARCH": "Search Weapons Registry Data",
-          "CREATE": "Create Weapons Registry Data",
-          "EDIT": "Edit Weapons Registry Data",
-          "DELETE": "Delete Weapons Registry Data"
+          "VIEW": "Tilgang til våpenregister-siden",
+          "SEARCH": "Søke våpenregisterdata",
+          "CREATE": "Opprette våpenregisterdata",
+          "EDIT": "Redigere våpenregisterdata",
+          "DELETE": "Slette våpenregisterdata"
         },
         "LEGISLATIONS": {
-          "VIEW": "Access Legislations Page",
-          "SEARCH": "Search Legislations Data",
-          "CREATE": "Create Legislations Data",
-          "EDIT": "Edit Legislations Data",
-          "DELETE": "Delete Legislations Data"
+          "VIEW": "Tilgang til lovgivningsside",
+          "SEARCH": "Søke lovgivningsdata",
+          "CREATE": "Opprette lovgivningsdata",
+          "EDIT": "Redigere lovgivningsdata",
+          "DELETE": "Slette lovgivningsdata"
         },
         "STAFF": {
-          "VIEW": "Access Staff Menu",
-          "VIEW_STAFF": "Access Staff Page",
+          "VIEW": "Tilgang til personaleside",
+          "VIEW_STAFF": "Tilgang til personale",
           "SOP": {
-            "VIEW": "Access SOP Page",
-            "SEARCH": "Search SOP Data",
-            "CREATE": "Create SOP Data",
-            "EDIT": "Edit SOP Data",
-            "DELETE": "Delete SOP Data"
+            "VIEW": "Tilgang til SOP-side",
+            "SEARCH": "Søke SOP-data",
+            "CREATE": "Opprette SOP-data",
+            "EDIT": "Redigere SOP-data",
+            "DELETE": "Slette SOP-data"
           },
           "ROSTER": {
-            "VIEW": "Access Roster Page",
-            "EDIT": "Edit Roster Data"
+            "VIEW": "Tilgang til rosterside",
+            "EDIT": "Redigere rosterdata"
           },
           "ACADEMY": {
-            "VIEW": "Access Academy Sheet Page",
-            "ADD": "Add Officers To Academy Sheet",
-            "EDIT": "Edit Academy Sheet Data",
-            "DELETE": "Delete Academy Sheet Data"
+            "VIEW": "Tilgang til opplæringsark-side",
+            "ADD": "Legge til offiserer i opplæringsarket",
+            "EDIT": "Redigere opplæringsark-data",
+            "DELETE": "Slette opplæringsark-data"
           },
           "DATABASE": {
-            "VIEW": "Access Disciplinary Database Page",
-            "ADD": "Add Officers To Disciplinary Database",
-            "EDIT": "Edit Disciplinary Database Data",
-            "DELETE": "Delete Disciplinary Database Data"
+            "VIEW": "Tilgang til disiplinærdatabase-siden",
+            "ADD": "Legge til offiserer i disiplinær-databasen",
+            "EDIT": "Redigere disiplinærdatabase-data",
+            "DELETE": "Slette disiplinærdatabase-data"
           },
           "CODES_COMMANDS": {
-            "VIEW": "Access 10 Codes & Commands Page"
+            "VIEW": "Tilgang til 10 koder & kommandoer-siden"
           }
         },
         "CHARGES": {
-          "VIEW": "Access Charges Page"
+          "VIEW": "Tilgang til anklageside"
         }
       }
     },
 
     "CHARGES": {
-      "LABEL": "Charges",
+      "LABEL": "Anklager",
       "CHARGES": {
-        "LABEL": "Charges"
+        "LABEL": "Anklager"
       },
       "CATEGORIES": {
-        "LABEL": "Categories"
+        "LABEL": "Kategorier"
       }
     }
   },
 
   "DATE": {
-    "YEAR": "year",
-    "MONTH": "month",
-    "DAY": "day",
-    "HOUR": "hour",
-    "MINUTE": "minute",
-    "SECOND": "second",
+    "YEAR": "år",
+    "MONTH": "måned",
+    "DAY": "dag",
+    "HOUR": "time",
+    "MINUTE": "minutt",
+    "SECOND": "sekund",
     "S": "s",
-    "AGO": "ago",
-    "LEFT": "left",
-    "JUST_NOW": "Just now",
-    "EXPIRED": "Expired",
-    "AND": "and"
+    "AGO": "siden",
+    "LEFT": "tilbake",
+    "JUST_NOW": "Nettopp nå",
+    "EXPIRED": "Utløpt",
+    "AND": "og"
   },
 
   "AVATAR": "Avatar",
-  "OFFICER": "Officer",
+  "OFFICER": "Tjenestemann",
   "STATUS": "Status",
-  "ACTIVE": "Active",
-  "INACTIVE": "Inactive",
-  "ACTIONS": "Actions",
-  "SET_WAYPOINT": "Set waypoint",
-  "UNKNOWN_CATEGORY": "Unknown Category",
+  "ACTIVE": "Aktiv",
+  "INACTIVE": "Inaktiv",
+  "ACTIONS": "Handlinger",
+  "SET_WAYPOINT": "Angi veipunkt",
+  "UNKNOWN_CATEGORY": "Ukjent kategori",
 
-  "STATEID": "State ID: (#{identifier})",
-  "FULLNAME": "Fullname: {fullname}",
-  "BADGENUMBER": "Badge#: {badgenumber}",
-  "CREATED_BY": "Created by: {user}",
+  "STATEID": "Statlig ID: (#{identifier})",
+  "FULLNAME": "Fullt navn: {fullname}",
+  "BADGENUMBER": "Merkenummer: {badgenumber}",
+  "CREATED_BY": "Opprettet av: {user}",
   "TAG": "(#{identifier}) {fullname}",
-  "POSTED_BY": "Posted by: {user}",
-  "OWNED_BY": "Owned by: (#{identifier}) {fullname}",
-  "LAST_SEEN": "Last seen {date}",
-  "AUTHOR": "Author: {user}",
-  "OWNER": "Owner: {owner}",
-  "PLATE": "Plate: {plate}",
-  "COLOR": "Color: {color}",
-  "REASON": "Reason: {reason}",
-  "EXPIRES": "Expires: {date}",
+  "POSTED_BY": "Postet av: {user}",
+  "OWNED_BY": "Eid av: (#{identifier}) {fullname}",
+  "LAST_SEEN": "Sist sett {date}",
+  "AUTHOR": "Forfatter: {user}",
+  "OWNER": "Eier: {owner}",
+  "PLATE": "Skilt: {plate}",
+  "COLOR": "Farge: {color}",
+  "REASON": "Årsak: {reason}",
+  "EXPIRES": "Utløper: {date}",
   "DESCRIPTION": "{description}",
-  "FINE": "Fine: ${fine}",
-  "JAIL": "Jail time: {jail} months(s)",
-  "POINTS": "Point(s): {points}",
-  "CATEGORY": "Category: {category}",
+  "FINE": "Bot: kr {fine}",
+  "JAIL": "Fengselstid: {jail} måned(er)",
+  "POINTS": "Poeng: {points}",
+  "CATEGORY": "Kategori: {category}",
 
-  "VIEW": "View",
-  "EDIT": "Edit",
-  "SEARCH": "Search",
-  "CREATE": "Create",
-  "UNLINK": "Unlink",
-  "SAVE": "Save",
-  "UPDATE": "Update",
-  "DELETE": "Delete",
-  "CLEAR": "Clear",
-  "CLOSE": "Close",
-  "JOIN": "Join",
-  "LEAVE": "Leave",
-  "REMOVE": "Remove",
-  "ADD": "Add",
-  "CANCEL": "Cancel",
-  "CONFIRM": "Confirm",
-  "RESUME": "Resume",
+  "VIEW": "Vis",
+  "EDIT": "Rediger",
+  "SEARCH": "Søk",
+  "CREATE": "Opprett",
+  "UNLINK": "Fjern kobling",
+  "SAVE": "Lagre",
+  "UPDATE": "Oppdater",
+  "DELETE": "Slett",
+  "CLEAR": "Tøm",
+  "CLOSE": "Lukk",
+  "JOIN": "Bli med",
+  "LEAVE": "Forlat",
+  "REMOVE": "Fjern",
+  "ADD": "Legg til",
+  "CANCEL": "Avbryt",
+  "CONFIRM": "Bekreft",
+  "RESUME": "Fortsett",
 
   "POPUP": {
-    "CANCEL": "Cancel",
-    "CONFIRM": "Confirm",
-    "IMAGE": "Are you sure, that you'd want to remove this image from the gallery?",
-    "SAVE": "Would you like to save {label}?",
-    "DELETE": "Would you like to delete {label}?",
-    "ACTIVITY": "Are you sure, that you'd want to clear this officers activity data?"
+    "CANCEL": "Avbryt",
+    "CONFIRM": "Bekreft",
+    "IMAGE": "Er du sikker på at du vil fjerne dette bildet fra galleriet?",
+    "SAVE": "Vil du lagre {label}?",
+    "DELETE": "Vil du slette {label}?",
+    "ACTIVITY": "Er du sikker på at du vil fjerne denne tjenestemannens aktivitetsdata?"
   },
 
   "PLACEHOLDER": {
-    "STATEID": "State ID",
-    "FULLNAME": "Fullname",
+    "STATEID": "Statlig ID",
+    "FULLNAME": "Fullt navn",
     "ALIAS": "Alias",
-    "DEPARTMENT": "Department",
-    "RANK": "Rank",
-    "CALLSIGN": "Callsign",
-    "BADGENUMBER": "Badge#",
-    "PHOTO": "Photo",
-    "TITLE": "Title",
-    "NOTES": "Notes",
-    "LOCATION": "Location",
-    "AUTHOR": "Author",
-    "CATEGORY": "Category",
-    "UNKNOWN": "Unknown",
-    "REASON": "Reason",
-    "PLATE": "Plate",
-    "OWNER": "Owner",
-    "COLOR": "Color",
-    "DATE": "Date and time",
-    "SEARCH": "Search",
-    "SELECT": "Select",
-    "FILTER": "Filter",
-    "CLOTHING": "Type of clothing",
-    "LINK": "Attach link",
-    "LABEL": "Label",
-    "DESCRIPTION": "Description",
-    "SERIAL": "Serial",
-    "WEAPON": "Weapon",
-    "ACTIONS": "Actions",
-    "OFFICERS": "Officers",
-    "PREFIX": "Prefix",
-    "FINE": "Fine",
-    "JAIL": "Jail",
-    "POINTS": "Points",
-    "WANTED": "WANTED",
-    "FLAGGED": "FLAGGED",
-    "ALL": "All"
+    "DEPARTMENT": "Avdeling",
+    "RANK": "Grad",
+    "CALLSIGN": "Kallenavn",
+    "BADGENUMBER": "Merkenummer",
+    "PHOTO": "Bilde",
+    "TITLE": "Tittel",
+    "NOTES": "Notater",
+    "LOCATION": "Plassering",
+    "AUTHOR": "Forfatter",
+    "CATEGORY": "Kategori",
+    "UNKNOWN": "Ukjent",
+    "REASON": "Årsak",
+    "PLATE": "Skilt",
+    "OWNER": "Eier",
+    "COLOR": "Farge",
+    "DATE": "Dato og tid",
+    "SEARCH": "Søk",
+    "SELECT": "Velg",
+    "FILTER": "Filtrer",
+    "CLOTHING": "Klesplaggtype",
+    "LINK": "Legg ved lenke",
+    "LABEL": "Etikett",
+    "DESCRIPTION": "Beskrivelse",
+    "SERIAL": "Serienummer",
+    "WEAPON": "Våpen",
+    "ACTIONS": "Handlinger",
+    "OFFICERS": "Tjenestemenn",
+    "PREFIX": "Prefiks",
+    "FINE": "Bot",
+    "JAIL": "Fengsel",
+    "POINTS": "Poeng",
+    "WANTED": "ETTERLYST",
+    "FLAGGED": "MARKERT",
+    "ALL": "Alle"
   },
 
   "BOXES": {
-    "IDENTITY": "Identity",
-    "LICENCES": "Licences",
-    "STATS": "Stats",
-    "ITEMS": "Items",
-    "TAGS": "Tags",
-    "VEHICLES": "Vehicles",
-    "HOUSING": "Properties",
-    "EMPLOYMENT": "Employment",
-    "CONVICTIONS": "Convictions",
-    "WEAPONS": "Weapons",
-    "ROLES": "Roles",
-    "GALLERY": "Gallery",
-    "OFFICERS": "Involved Officers",
-    "CITIZENS": "Involved Citizens",
-    "INCIDENTS": "Related Incidents",
-    "REPORTS": "Related Reports",
-    "EVIDENCE": "Related Evidence",
-    "ACTIVITY": "Activity"
+    "IDENTITY": "Identitet",
+    "LICENCES": "Lisenser",
+    "STATS": "Statistikk",
+    "ITEMS": "Gjenstander",
+    "TAGS": "Merker",
+    "VEHICLES": "Kjøretøy",
+    "HOUSING": "Eiendommer",
+    "EMPLOYMENT": "Ansettelse",
+    "CONVICTIONS": "Domfellelser",
+    "WEAPONS": "Våpen",
+    "ROLES": "Roller",
+    "GALLERY": "Galleri",
+    "OFFICERS": "Involverte tjenestemenn",
+    "CITIZENS": "Involverte borgere",
+    "INCIDENTS": "Relaterte hendelser",
+    "REPORTS": "Relaterte rapporter",
+    "EVIDENCE": "Relaterte bevis",
+    "ACTIVITY": "Aktivitet"
   },
 
   "CAMERA": {
-    "GALLERY": "Gallery",
-    "OPEN": "Open camera",
-    "VIEW": "View gallery",
-    "UPLOAD": "Upload",
-    "DELETE": "Delete"
+    "GALLERY": "Galleri",
+    "OPEN": "Åpne kamera",
+    "VIEW": "Vis galleri",
+    "UPLOAD": "Last opp",
+    "DELETE": "Slett"
   },
 
   "CHARGES": {
-    "FINE": "${fine} Fine",
-    "JAIL": "{jail} Months(s)",
-    "POINTS": "{points} Point(s)"
+    "FINE": "kr {fine} Bot",
+    "JAIL": "{jail} Måned(er)",
+    "POINTS": "{points} Poeng"
   },
 
   "EDITOR": {
-    "BOLD": "Bold",
-    "ITALIC": "Italic",
-    "STRIKE": "Strike",
+    "BOLD": "Fet",
+    "ITALIC": "Kursiv",
+    "STRIKE": "Gjennomstreking",
     "TEXT": {
-      "PARAGRAPH": "Paragraph",
+      "PARAGRAPH": "Avsnitt",
       "H1": "H1",
       "H2": "H2",
       "H3": "H3",
@@ -442,56 +422,56 @@
       "H5": "H5",
       "H6": "H6"
     },
-    "COLOR": "Color",
-    "CLEAR_MARKS": "Clear marks",
-    "CLEAR_NODES": "Clear nodes",
-    "BULLET_LIST": "Bullet list",
-    "ORDERED_LIST": "Ordered list",
-    "HARD_BREAK": "Hard break",
-    "UNDO": "Undo",
-    "REDO": "Redo"
+    "COLOR": "Farge",
+    "CLEAR_MARKS": "Fjern merker",
+    "CLEAR_NODES": "Fjern noder",
+    "BULLET_LIST": "Punktlister",
+    "ORDERED_LIST": "Nummererte lister",
+    "HARD_BREAK": "Hardt linjeskift",
+    "UNDO": "Angre",
+    "REDO": "Gjenta"
   },
 
   "INVENTORY": {
-    "COUNT": "Count: {count}",
+    "COUNT": "Antall: {count}",
     "ITEM_DATA": {
-      "serial": "Serial: {serial}",
-      "durability": "Durability: {durability}",
+      "serial": "Serienummer: {serial}",
+      "durability": "Holdbarhet: {durability}",
       "ammo": "Ammo: {ammo}",
-      "street": "Location: {street}",
-      "type": "Category type: {type}",
+      "street": "Plassering: {street}",
+      "type": "Kategoritype: {type}",
       "dnalabel": "DNA: {dnalabel}",
-      "label": "Label: {label}",
-      "date": "Date: {date}",
-      "tracking": "Tracking: {tracking}",
-      "component": "Component: {component}",
-      "item": "Item: {item}",
-      "memoryCard": "Memory card {memoryCard}",
-      "flashEnabled": "Flash: {flashEnabled}",
-      "birthdate": "Birthdate: {birthdate}",
-      "nationaility": "Nationaility: {nationaility}",
-      "identifier": "State ID: {identifier}",
-      "gender": "Gender: {gender}",
-      "firstname": "Firstname: {firstname}",
-      "lastname": "Lastname: {lastname}"
+      "label": "Etikett: {label}",
+      "date": "Dato: {date}",
+      "tracking": "Sporing: {tracking}",
+      "component": "Komponent: {component}",
+      "item": "Gjenstand: {item}",
+      "memoryCard": "Minnekort {memoryCard}",
+      "flashEnabled": "Blits: {flashEnabled}",
+      "birthdate": "Fødselsdato: {birthdate}",
+      "nationaility": "Nasjonalitet: {nationaility}",
+      "identifier": "Statlig ID: {identifier}",
+      "gender": "Kjønn: {gender}",
+      "firstname": "Fornavn: {firstname}",
+      "lastname": "Etternavn: {lastname}"
     }
   },
 
   "NO_ACCESS": {
-    "TITLE": "ACCESS DENIED",
-    "DESCRIPTION": "You do not have access to the MDT",
-    "BUTTON": "Close"
+    "TITLE": "TILGANG NEKTET",
+    "DESCRIPTION": "Du har ikke tilgang til MDT-en",
+    "BUTTON": "Lukk"
   },
 
   "SUSPENDED": {
-    "TITLE": "ACCESS DENIED",
-    "DESCRIPTION": "Looks like you've been suspended, and can't access the MDT",
-    "BUTTON": "Close"
+    "TITLE": "TILGANG NEKTET",
+    "DESCRIPTION": "Ser ut som om du har blitt suspendert, og kan ikke få tilgang til MDT-en",
+    "BUTTON": "Lukk"
   },
 
   "ERROR403": {
     "STATUS": "403",
-    "TITLE": "403 - You Shall Not Pass",
-    "DESCRIPTION": "Uh oh, Gandalf is blocking the way!"
+    "TITLE": "403 - Du skal ikke passere",
+    "DESCRIPTION": "Åh nei, Gandalf blokkerer veien!"
   }
 }
