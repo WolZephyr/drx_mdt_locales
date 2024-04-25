@@ -42,7 +42,7 @@
         "PROCESSED": "Behandlet",
         "CHARGES": {
           "SELECTED": "Valgte",
-          "ALL_CHARGES": "Alle anklager",
+          "ALL_CHARGES": "Alle bøter",
           "NONE_FOUND": "Ingen funnet"
         }
       }
@@ -127,7 +127,7 @@
     }
   },
   "CHARGE": {
-    "LABEL": "Anklager"
+    "LABEL": "Bøter"
   },
   "CONFIGURATIONS": {
     "LABEL": "Konfigurasjoner",
@@ -253,9 +253,9 @@
     },
 
     "CHARGES": {
-      "LABEL": "Anklager",
+      "LABEL": "Bøter",
       "CHARGES": {
-        "LABEL": "Anklager"
+        "LABEL": "Bøter"
       },
       "CATEGORIES": {
         "LABEL": "Kategorier"
