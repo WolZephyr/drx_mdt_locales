@@ -98,8 +98,8 @@
       "LABEL": "Personale"
     },
     "SOP": {
-      "LABEL": "SOP",
-      "EDIT": "Rediger SOP {id}"
+      "LABEL": "Håndbok",
+      "EDIT": "Rediger Håndbok {id}"
     },
     "ROSTER": {
       "LABEL": "Roster"
@@ -220,11 +220,11 @@
           "VIEW": "Tilgang til personaleside",
           "VIEW_STAFF": "Tilgang til personale",
           "SOP": {
-            "VIEW": "Tilgang til SOP-side",
-            "SEARCH": "Søke SOP-data",
-            "CREATE": "Opprette SOP-data",
-            "EDIT": "Redigere SOP-data",
-            "DELETE": "Slette SOP-data"
+            "VIEW": "Tilgang til Håndbok-side",
+            "SEARCH": "Søke Håndbok-data",
+            "CREATE": "Opprette Håndbok-data",
+            "EDIT": "Redigere Håndbok-data",
+            "DELETE": "Slette Håndbok-data"
           },
           "ROSTER": {
             "VIEW": "Tilgang til rosterside",
