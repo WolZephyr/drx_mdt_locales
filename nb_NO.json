@@ -55,7 +55,7 @@
   "BOLOS_WARRANTS": {
     "LABEL": "Etterlysning & Arrestordrer",
     "BOLOS": {
-      "LABEL": "Etterlysning"
+      "LABEL": "Etterlysninger"
     },
     "WARRANTS": {
       "LABEL": "Arrestordrer",
