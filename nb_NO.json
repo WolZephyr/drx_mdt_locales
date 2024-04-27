@@ -5,7 +5,7 @@
       "LABEL": "Nylige aktiviteter",
       "INCIDENT": "Nylige hendelser",
       "REPORT": "Nylige rapporter",
-      "BOLO": "Nylige BOLOs",
+      "BOLO": "Nylige Etterlysninger",
       "WARRANT": "Nylige arrestordrer",
       "EVIDENCE": "Nylige bevis",
       "WEAPON": "Nylige registrerte våpen"
@@ -53,9 +53,9 @@
     "EDIT": "Rediger rapport {id}"
   },
   "BOLOS_WARRANTS": {
-    "LABEL": "BOLOs & Arrestordrer",
+    "LABEL": "Etterlysning & Arrestordrer",
     "BOLOS": {
-      "LABEL": "BOLOs"
+      "LABEL": "Etterlysning"
     },
     "WARRANTS": {
       "LABEL": "Arrestordrer",
@@ -182,10 +182,10 @@
           "DELETE": "Slette rapportdata"
         },
         "BOLOS_WARRANTS": {
-          "VIEW": "Tilgang til BOLOs & arrestordrer-siden",
-          "CREATE": "Opprette BOLOs & arrestordrer-data",
-          "EDIT": "Redigere BOLOs & arrestordrer-data",
-          "DELETE": "Slette BOLOs & arrestordrer-data"
+          "VIEW": "Tilgang til etterlysninger & arrestordrer-siden",
+          "CREATE": "Opprette etterlysninger & arrestordrer-data",
+          "EDIT": "Redigere etterlysninger & arrestordrer-data",
+          "DELETE": "Slette etterlysninger & arrestordrer-data"
         },
         "VEHICLES": {
           "VIEW": "Tilgang til kjøretøysside",
